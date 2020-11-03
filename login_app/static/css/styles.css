@@ -1,0 +1,61 @@
+*{
+    margin:0px;
+    padding:0px;
+    /* border:1px dotted red; */
+}
+.error_messages {
+    margin-left:20px;
+}
+#page_wrapper div{
+    display:inline-block;
+    vertical-align:top;
+}
+
+#register_container *{
+    display:block;
+}
+
+#register_container h1{
+    text-align:center;
+    margin-bottom:10px;
+}
+
+#register_container input[type=submit] {
+    margin-left:100px;
+    margin-top:10px;
+}
+
+#login_container {
+    margin-left:200px;
+}
+#login_container *{
+    display:block;
+}
+
+#login_container h1{
+    text-align:center;
+    margin-bottom:10px;
+}
+
+#login_container input[type=submit] {
+    margin-left:130px;
+    margin-top:10px;
+}
+
+.labels_container {
+    line-height:25px;
+}
+
+.input_container *{
+    margin-top:5px;
+}
+
+#all_users_table {
+    border:1px solid black;
+}
+#all_users_table tr:nth-child(odd){ 
+    background: #adcaf1;
+}
+#all_users_table tr:nth-child(even){
+    background: #dce9fa;
+}
